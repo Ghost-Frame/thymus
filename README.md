@@ -355,3 +355,17 @@ Returns aggregate counts.
   "metrics": 1042
 }
 ```
+
+---
+
+## Where Thymus Fits
+
+Thymus is one piece of a larger agent infrastructure. Sister services:
+
+- [axon](https://github.com/Ghost-Frame/axon) -- pub/sub event bus
+- [broca](https://github.com/Ghost-Frame/broca) -- action log and natural language narrator
+- [chiasm](https://github.com/Ghost-Frame/chiasm) -- task coordination dashboard
+- [loom](https://github.com/Ghost-Frame/loom) -- workflow orchestration
+- [soma](https://github.com/Ghost-Frame/soma) -- agent registry and heartbeats
+
+Thymus runs standalone -- score any agent output against any rubric over HTTP -- and pairs naturally with Broca for narrative context on what was evaluated.
