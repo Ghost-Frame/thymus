@@ -4,7 +4,6 @@ Thymus scores agent output against rubrics you define. Each rubric is a set of w
 
 - **Port:** 4900
 - **Stack:** Node 22, libsql (SQLite-compatible embedded database)
-- **Org:** [Ghost-Frame/thymus](https://github.com/Ghost-Frame/thymus)
 
 ---
 
